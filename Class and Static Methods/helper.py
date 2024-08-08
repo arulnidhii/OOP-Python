@@ -1,5 +1,3 @@
-# When to use class methods and when to use static methods ?
-
 class Item:
     @staticmethod
     def is_integer():
@@ -17,11 +15,6 @@ class Item:
         objects, like we have done with CSV.
         '''
 
-# THE ONLY DIFFERENCE BETWEEN THOSE:
-# Static methods are not passing the object reference as the first argument in the background!
-
-
-# NOTE: However, those could be also called from instances.
 
 item1 = Item()
 item1.is_integer()
